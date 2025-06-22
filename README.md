@@ -22,17 +22,7 @@ Saves the results to an .xlsx Excel file
 Supports appending data to existing files via --append
 
 📁 Project Structure
-lua
-Copy
-Edit
-fab-scraper/
-├── fab_parser.py
-├── chromedriver.exe
-├── LICENSE.chromedriver
-├── THIRD_PARTY_NOTICES.chromedriver
-├── output.xlsx
-├── README.md
-└── requirements.txt
+
 🚀 How to Use
 1. Install dependencies
 nginx
@@ -49,7 +39,7 @@ Edit
 python fab_parser.py https://www.fab.com/sellers/YOUR-PAGE -o existing_data.xlsx --append
 Arguments:
 
-URL — your FAB seller profile
+URL ¨YOUR-PAGE¨ — your FAB seller profile
 
 -o or --output — Excel file to save to
 
@@ -89,5 +79,5 @@ Do not use this to scrape other sellers' pages
 Intended for original creators managing their own models
 
 👤 Author
-Made by a 3D content creator working with FAB.
+Made by a 3D content creator working with FAB NaughtyMonk.
 Open to contributions — issues and pull requests welcome.
