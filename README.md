@@ -9,13 +9,13 @@ Loads your public seller page (no login required)
 
 Scrapes key data from each model:
 
-Title
+- Title
 
-Direct link
+- Direct link
 
-Price
+- Price
 
-Rating
+- Rating
 
 Saves the results to an .xlsx Excel file
 
