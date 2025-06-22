@@ -22,7 +22,9 @@ Saves the results to an .xlsx Excel file
 Supports appending data to existing files via --append
 
 📁 Project Structure
+
 ![Screenshot](img/structure.png)
+
 🚀 How to Use
 1. Install dependencies
 nginx
