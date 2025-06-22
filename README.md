@@ -35,10 +35,11 @@ pip install -r requirements.txt
 If not sure how — read next section.
 
 3. Run the script
-nginx
-Copy
-Edit
+
+![Screenshot](img/path.png)
+
 python fab_parser.py https://www.fab.com/sellers/YOUR-PAGE -o existing_data.xlsx --append
+
 Arguments:
 
 URL ¨YOUR-PAGE¨ — your FAB seller profile
