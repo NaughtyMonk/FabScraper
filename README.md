@@ -23,6 +23,8 @@ Supports appending data to existing files via --append
 
 📁 Project Structure
 
+![Screenshot](img/structure.png)
+
 🚀 How to Use
 1. Install dependencies
 nginx
@@ -46,14 +48,19 @@ URL ¨YOUR-PAGE¨ — your FAB seller profile
 --append — adds data to existing file instead of overwriting
 
 🛠 How to Install ChromeDriver
-Open Chrome and go to chrome://settings/help
-Copy your Chrome version (e.g. 114.0.5735.90)
+- Open Chrome and go to chrome://settings/help
 
-Go to ChromeDriver downloads
-Find the version that matches your Chrome’s major version (e.g. 114)
+- Copy your Chrome version (e.g. 114.0.5735.90)
 
-Download and extract chromedriver.exe
-Place it in the same folder as fab_parser.py
+
+- Go to ChromeDriver downloads
+
+- Find the version that matches your Chrome’s major version (e.g. 114)
+
+
+- Download and extract chromedriver.exe
+
+- Place it in the same folder as fab_parser.py
 
 Note: If Chrome updates, you might need to update chromedriver.exe as well.
 
@@ -62,11 +69,14 @@ Currently works reliably for up to ~24 assets (then FAB may detect bot)
 
 Roadmap:
 
-Batching requests to bypass anti-bot
 
-Add preview image extraction
+- Batching requests to bypass anti-bot
 
-Improve error handling
+
+- Add preview image extraction
+
+
+- Improve error handling
 
 📷 Example
 Check output.xlsx for an example of the exported spreadsheet.
